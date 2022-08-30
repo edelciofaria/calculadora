@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style_calc.css">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td colspan="4"><textarea class="tela" onclick="mostraHistorico()"></textarea></td> 
+            </tr>
+            <tr>
+                    <td class="numero" onclick="imprimeNumero(7)">7</td>
+                    <td class="numero" onclick="imprimeNumero(8)">8</td>
+                    <td class="numero" onclick="imprimeNumero(9)">9</td>
+                    <td class="sinais" onclick="subtracao()">-</td>
+            </tr>
+            <tr>
+                    <td class="numero" onclick="imprimeNumero(4)">4</td>
+                    <td class="numero" onclick="imprimeNumero(5)">5</td>
+                    <td class="numero" onclick="imprimeNumero(6)">6</td>
+                    <td class="sinais" onclick="multiplicacao()">*</td>
+            </tr>
+            <tr>
+                    <td class="numero" onclick="imprimeNumero(1)">1</td>
+                    <td class="numero" onclick="imprimeNumero(2)">2</td>
+                    <td class="numero" onclick="imprimeNumero(3)">3</td>
+                    <td class="sinais" onclick="divisao()">/</td>
+            </tr>
+            <tr>
+                    <td class="ponto" onclick="imprimeNumero('.')">.</td>
+                    <td class="numero" onclick="imprimeNumero(0)">0</td>
+                    <td class="limpa" onclick="limpaVariavel()">C</td>
+                    <td class="sinais" onclick="adicao()">+</td>
+            </tr>
+            <tr>
+                <td class="igual" colspan="4" onclick="mostraResultado()">=</td>
+            </tr>
+        </table>
+    </body>
+</html>
+<script src="script.js"></script>

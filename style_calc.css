@@ -1,0 +1,76 @@
+body {  
+    width: 500px;  
+    margin: 4% auto;  
+    font-family: 'Source Sans Pro', sans-serif;  
+    letter-spacing: 5px; 
+}
+.tela {  
+        border: 0px;  
+        border-radius: 5px; 
+        width: 460px; 
+        height: 60px;  
+        padding-right: 15px;  
+        padding-top: 10px;  
+        text-align: right;  
+        margin-right: 6px;  
+        font-size: 2.5rem;  
+        overflow-x: auto;  /*tamanho que o navegador diminui na horiz.*/
+        transition: all .2s ease-in-out;  
+   }
+table tr .sinais {  
+        border: 1px solid #bbb;  
+        border-radius: 1px;  
+        width: 80px;  
+        text-align: center;  
+        padding: 10px;  
+        margin: 20px 4px 10px 0;  
+        cursor: pointer;  
+        background-color: #ddd;  
+        transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;  
+   }
+table tr td {   
+    border: 1px solid #ddd;  
+    border-radius: 1px;  
+    width: 80px;  
+    text-align: center;  
+    padding: 10px;  
+    margin: 10px 4px 10px 0;  
+    cursor: pointer;  
+    background-color: #f9f9f9;  
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;  
+   }
+.limpa {  
+    border: 1px solid #3079ED;  
+    border-radius: 1px;
+    width: 80px;  
+    text-align: center;  
+    padding: 10px;  
+    margin: 10px 4px 10px 0;     
+    vertical-align: top;  
+    cursor: pointer;  
+    color: black;
+    background-color: #4d90fe;  
+    transition: all .5s ease-in-out;  
+   } 
+   .igual {  
+    border: 1px solid;  
+    border-radius: 20px;
+    width: 80px;  
+    text-align: center;  
+    padding: 10px;  
+    margin: 10px 4px 10px 0;     
+    vertical-align: top;  
+    cursor: pointer;  
+    color: rgb(5, 25, 251);
+    background-color: #08f724;    
+   } 
+table tr td:hover {  
+    background-color: #f1f1f1;  
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);  
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);  
+    border-color: #bbb;  
+   }  
+table tr td:active {  
+    font-weight: bold;  
+   }
+
